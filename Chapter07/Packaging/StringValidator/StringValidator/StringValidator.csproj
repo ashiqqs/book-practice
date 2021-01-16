@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>Ashiqs.Bd.Test</PackageId>
+    <PackageVersion>1.0.0.0</PackageVersion>
+    <Authors>Ashiqur Rahman</Authors>
+    <PackageLicenseExpression>MS-PL</PackageLicenseExpression>
+    <PackageProjectUrl>http://github.com/ashiqqa/CS8NetCore3BookPractice</PackageProjectUrl>
+    <PackageIcon>okay_sign.png</PackageIcon>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Example shared library packaged for NuGet by Ashiq</PackageReleaseNotes>
+    <Description>Three extension methods to validate a string value</Description>
+    <Copyright>Copyright © 2021 Ashiqur Rahman</Copyright>
+    <PackageTags>string extension package cs8</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="okay_sign.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+
+</Project>
